@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dirty Coins</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng Shopee
+                            <div class="header__qr">
+                                <img src="./assets/img/qr_code.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-app">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/Gg_play.png" alt="Google Play" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/App_store.png" alt="App Store" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="" class="header__navnar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+
+                            <a href="" class="header__navnar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-noti">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__noti">
+                                <header class="header__noti-header">
+                                    <h3>Thông báo mới</h3>
+                                </header>
+                                <ul class="header__noti-list">
+                                    <li class="header__noti-item">
+                                        <a href="" class="header__noti-link">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbygoPKttBeJqyztu6B6dcb6GsjoSvByzwgw&usqp=CAU" alt="" class="header__noti-img">
+                                            <div class="header__noti-info">
+                                                <span class="header__notify-name">Mời bạn săn sale</span>
+                                                <span class="header__notify-des">Voucher 200.000đ cho đơn hàng từ 1.000.000Đ - Duy nhất hôm nay vào ngay</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__noti-item">
+                                        <a href="" class="header__noti-link">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6V_zXpwP7Sxc79Mtx-D_2vfq1qw-OZnoLWA&usqp=CAU" alt="" class="header__noti-img">
+                                            <div class="header__noti-info">
+                                                <span class="header__notify-name">Dirty Coins ra mắt mẫu áo mới cho mùa hè</span>
+                                                <span class="header__notify-des">Với chất liệu cực kì thoáng mát cùng với đó là sự kết hợp với nam rapper đến từ Hải Phòng 16 Typh chắc chắn sẽ là lựa chọn hàng đầu </span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__noti-item">
+                                        <a href="" class="header__noti-link">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwlrb618xUuynxShgaPYBwByhDhnkCOLqbog&usqp=CAU" alt="" class="header__noti-img">
+                                            <div class="header__noti-info">
+                                                <span class="header__notify-name">Bạn ơi, Cho Dirty Coins hỏi nhỏ</span>
+                                                <span class="header__notify-des">Chất lượng sản phẩm được mấy điểm trong lòng bạn? Hãy cho điểm TẠI ĐÂY nhé</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__noti-footer">
+                                    <a href="" class="header__noti-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--bold header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--bold">Đăng nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="https://inkythuatso.com/uploads/thumbnails/800/2023/03/9-anh-dai-dien-trang-inkythuatso-03-15-27-03.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Trung Hiếu</span>
+                            
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+
+                                <li class="header__navbar-user-item header__navbar-user-item--seperate">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    
+                    </ul>
+                </nav>
+
+                <!-- Header with search -->
+                <div class="header-search">
+                    <div class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <img src="./assets/img/Logo.png" alt="Logo" class="header__logo-img">
+                        </a>
+                            
+                    </div>
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Bạn muốn tìm kiếm ">
+                            
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">T-shirt</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Áo khoác</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                    <!-- Cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header__cart-number">3</span>
+
+                            <!-- No cart: Add class "header__cart-list--none" -->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/none_cart.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">
+                                    Chưa có sản phẩm
+                                </span>
+                                <!-- Cart item -->
+                                <h4 class="header__cart-heading">Sản phẩm mới thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img width="invalid-value" height="invalid-value" alt="Áo thun DirtyCoins x One Piece Luffy Dream T-shirt" class="header__cart-img" style="object-fit: contain" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lhk69fmkwih142_tn">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Áo thun DirtyCoins x One Piece Luffy Dream </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">450.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img width="invalid-value" height="invalid-value" alt="Áo thun DirtyCoins Retro T-Shirt" class="header__cart-img" style="object-fit: contain" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lf9goxi1krd608_tn">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Áo thun DirtyCoins Retro T-Shirt</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">400.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img width="invalid-value" height="invalid-value" alt="Quần DirtyCoins Wavy Shorts" class="header__cart-img" style="object-fit: contain" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lhk8py75pabpda_tn">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Quần DirtyCoins Wavy Shorts</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">490.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a href="" class="header__cart-view btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <!-- <nav class="category">
+                <h3 class="category__heading">
+                    <i class="fa-solid fa-list"></i>
+                    Danh mục
+                </h3>
+
+                <ul class="category-list">
+                    <li class="category-item category-item--active">
+                        <a href="#" class="category-item__link">GIFTBOX</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" class="category-item__link">ONEPIECE</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" class="category-item__link">PANTS</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" class="category-item__link">WALLETS</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" class="category-item__link">T-SHIRT & POLO SHIRT</a>
+                    </li>
+                </ul>
+            </nav> -->
+        </div>
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+
+    <!-- Modal layout -->
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body"> -->
+            
+            <!-- Register Form -->
+            <!-- <div class="form">
+                <div class="form__container">
+                    <div class="form__header">
+                        <h3 class="form__heading">Đăng ký</h3>
+                        <span class="form__switch-btn">Đăng nhập</span>
+                    </div>
+    
+                    <div class="form__form">
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="Email">
+                        </div>
+    
+                        <div class="form__group">
+                            <input type="password" class="form__input" placeholder="Password">
+                        </div>
+    
+                        <div class="form__group">
+                            <input type="password" class="form__input" placeholder="Rewrite Password">
+                        </div>
+                    </div>
+    
+                    <div class="form__plus">
+                        <p class="form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với Shop về
+                            <a href="" class="form__text-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+    
+                    <div class="form_control">
+                        <button class="btn btn--normal form_control-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÍ</button>
+                    </div>
+                </div>
+
+                <div class="form_social">
+                    <a href="" class="form_social--facebook btn btn--size-s btn--with-icon">
+                        <i class="form_social-icon fa-brands fa-square-facebook"></i>    
+                        <span class="form-social-title">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+
+                    <a href="" class="form_social--google btn btn--size-s btn--with-icon">
+                        <i class="form_social-icon fa-brands fa-google"></i>    
+                        <span class="form-social-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div> -->
+            
+            <!-- Login Form -->
+            <!-- <div class="form">
+                <div class="form__container">
+                    <div class="form__header">
+                        <h3 class="form__heading">Đăng nhập</h3>
+                        <span class="form__switch-btn">Đăng ký</span>
+                    </div>
+    
+                    <div class="form__form">
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="Email">
+                        </div>
+    
+                        <div class="form__group">
+                            <input type="password" class="form__input" placeholder="Password">
+                        </div>
+                    </div>
+    
+                    <div class="form__plus">
+                        <div class="form__help">
+                            <a href="" class="form__help-link form__help-forget">Quên mật khẩu</a>
+                            <span class="form__help-seperate"></span>
+                            <a href="" class="form__help-link">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+    
+                    <div class="form_control">
+                        <button class="btn btn--normal form_control-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+
+                <div class="form_social">
+                    <a href="" class="form_social--facebook btn btn--size-s btn--with-icon">
+                        <i class="form_social-icon fa-brands fa-square-facebook"></i>    
+                        <span class="form-social-title">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+
+                    <a href="" class="form_social--google btn btn--size-s btn--with-icon">
+                        <i class="form_social-icon fa-brands fa-google"></i>    
+                        <span class="form-social-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>      
+    </div> -->
+</body>
+</html>
